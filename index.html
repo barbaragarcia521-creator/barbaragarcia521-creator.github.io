@@ -63,3 +63,30 @@
 </body>
 </html>
 <a href="https://tryglpro.com/f/szs6tw?aff_id=157599" target="_blank">
+  <footer>
+  <button onclick="toggleFooterContent('security')">Security & Privacy Policy</button>
+  <button onclick="toggleFooterContent('payment')">Payment Methods</button>
+  <button onclick="toggleFooterContent('cookies')">Cookies</button>
+
+  <div id="security" class="footer-content">
+    This site follows security standards and data protection. For full details, see our privacy policy.
+  </div>
+
+  <div id="payment" class="footer-content">
+    We accept payments via credit cards, debit cards, and digital payment platforms.
+  </div>
+
+  <div id="cookies" class="footer-content">
+    We use cookies to improve user experience and traffic analysis. No personal data is collected.
+  </div>
+</footer>
+
+<script>
+function toggleFooterContent(id) {
+  const el = document.getElementById(id);
+  el.style.display = el.style.display === 'block' ? 'none' : 'block';
+  if (el.style.display === 'block') {
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+</script>
