@@ -82,3 +82,39 @@ footer {
   padding: 15px;
   font-size: 14px;
 }
+footer {
+  background: #e0e0e0;
+  padding: 15px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+footer button {
+  background: #6a5acd; /* roxo combinando com check da lista */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 12px;
+  cursor: pointer;
+  margin: 5px;
+  flex: 1 1 30%;
+  max-width: 150px;
+  font-size: 14px;
+}
+
+footer button:hover {
+  background: #5741a0; /* roxo mais escuro */
+}
+
+/* Conteúdo que aparece ao clicar */
+.footer-content {
+  display: none;
+  margin-top: 10px;
+  background: #f4f7f6; /* mesmo fundo do body */
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  text-align: left;
+}
