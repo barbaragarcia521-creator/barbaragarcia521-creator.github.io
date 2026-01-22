@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f7f6;
+  margin: 0;
+  text-align: center;
+  color: #333;
+}
+
+header {
+  background: #1e7f6d;
+  color: #fff;
+  padding: 35px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+.produto {
+  max-width: 420px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.benefits {
+  text-align: left;
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+.benefits li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #6a5acd; /* roxo */
+  font-weight: bold;
+}
+
+.descricao {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 25px;
+}
+
+button {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+footer {
+  background: #e0e0e0;
+  padding: 15px;
+  font-size: 14px;
+}
